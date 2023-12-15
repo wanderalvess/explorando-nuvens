@@ -12,47 +12,8 @@ import java.util.List;
 @RequestMapping("/image")
 @CrossOrigin("*")
 public class ImageController {
-
-//    //tentativa 1
-//    @GetMapping(value = "/image", produces = MediaType.APPLICATION_JSON_VALUE)
-//    public ResponseEntity<String> getImageWithJson() throws Exception {
-//        String imagePath = "C:\\Users\\wande\\Projetos\\clouds-identification-tab-back\\nuvem.JPG"; // substitua pelo caminho para sua imagem
-//        Path path = Paths.get(imagePath);
-//        byte[] imageBytes = Files.readAllBytes(path);
-//        String imageData = org.apache.commons.codec.binary.Base64.encodeBase64String(imageBytes);
-//
-//        String json = String.format("{\"name\":\"teste\", \"image\":\"data:image/jpg;base64,%s\"}", imageData);
-//        return ResponseEntity.ok().body(json);
-//    }
-//
-//    //tentativa 2
-//
-//    @GetMapping(value = "/image/raw", produces = MediaType.IMAGE_JPEG_VALUE)
-//    public ResponseEntity<Resource> getImage(@RequestParam("category") String category) throws Exception {
-//        String imagePath;
-//
-//        if ("cirrus".equalsIgnoreCase(category)) {
-//            imagePath = "C:\\Users\\wande\\Projetos\\clouds-identification-tab-back\\cirrus.JPG";
-//        } else if ("cumulus".equalsIgnoreCase(category)) {
-//            imagePath = "C:\\Users\\wande\\Projetos\\clouds-identification-tab-back\\cumulus.JPG";
-//        } else {
-//            // Lógica para tratar categorias desconhecidas ou erro
-//            // Você pode lançar uma exceção, retornar uma imagem padrão, ou tratar de outra forma adequada ao seu aplicativo.
-//            // Neste exemplo, estou retornando uma imagem padrão.
-//            imagePath = "Caminho para uma imagem padrão";
-//        }
-//
-//        Path path = Paths.get(imagePath);
-//        byte[] imageBytes = Files.readAllBytes(path);
-//        ByteArrayResource resource = new ByteArrayResource(imageBytes);
-//        return ResponseEntity.ok()
-//                .contentLength(imageBytes.length)
-//                .contentType(MediaType.IMAGE_JPEG)
-//                .body(resource);
-//    }
-
-    //tentativa 3
-
+     //spring data rest repository
+    // mock
     @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();
