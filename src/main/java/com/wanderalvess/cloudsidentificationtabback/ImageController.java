@@ -9,7 +9,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/image")
+@RequestMapping("/api/image")
 @CrossOrigin("*")
 public class ImageController {
      //spring data rest repository
