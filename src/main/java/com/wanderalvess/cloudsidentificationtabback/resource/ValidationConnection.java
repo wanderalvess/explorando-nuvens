@@ -11,7 +11,7 @@ public class ValidationConnection {
 
     @GetMapping("/ping")
     public ResponseEntity<String> ping() {
-        return ResponseEntity.ok("API is up and running!");
+        return ResponseEntity.ok("API está rodando normalmente!");
     }
 
 }
