@@ -12,16 +12,16 @@ public class Image {
     //@Column(name = "id")
     private Integer id;
     //@Column(name = "titulo")
-    private String title;
+    private String nameCloudType;
     //@Column(name = "descricao")
-    private String description;
+    private String descriptionCloudType;
     //@Column(name = "url")
     private String imageUrl;
 
-    public Image(Integer id, String title, String description, String imageUrl) {
+    public Image(Integer id, String nameCloudType, String descriptionCloudType, String imageUrl) {
         this.id = id;
-        this.title = title;
-        this.description = description;
+        this.nameCloudType = nameCloudType;
+        this.descriptionCloudType = descriptionCloudType;
         this.imageUrl = imageUrl;
     }
 
@@ -44,19 +44,19 @@ public class Image {
         this.imageUrl = imageUrl;
     }
 
-    public String getTitle() {
-        return title;
+    public String getNameCloudType() {
+        return nameCloudType;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setNameCloudType(String nameCloudType) {
+        this.nameCloudType = nameCloudType;
     }
 
-    public String getDescription() {
-        return description;
+    public String getDescriptionCloudType() {
+        return descriptionCloudType;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setDescriptionCloudType(String descriptionCloudType) {
+        this.descriptionCloudType = descriptionCloudType;
     }
 }
