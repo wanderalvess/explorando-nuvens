@@ -14,7 +14,7 @@ import java.util.List;
 public class ImageController {
      //spring data rest repository
     // mock
-    @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();
         System.out.println(category);
@@ -56,7 +56,7 @@ public class ImageController {
             images.add(new Image(1, "Altocumulus Lenticularis", "Altocumulus que assumem uma forma de lente, frequentemente encontradas em altitudes médias.", "https://i.postimg.cc/bJ97m8dJ/altocumulus-lenticularis.jpg"));
             images.add(new Image(1, "Altocumulus Stratiformis", "Altocumulus que cobrem o céu em camadas uniformes e contínuas.", "https://i.postimg.cc/G3q0YcZg/altocumulus-stratiformis.jpg"));
             images.add(new Image(1, "Altocumulus Translucidus", "Altocumulus que são finos o suficiente para permitir a passagem da luz solar.", "https://i.postimg.cc/QxyR4fNp/altocumulus-translucidus.jpg"));
-            images.add(new Image(1, "Altocumulus Volutus", "NAltocumulus que exibem padrões espirais ou giratórios.", "https://i.postimg.cc/pTvNQyW4/altocumulus-volutus.jpg"));
+            images.add(new Image(1, "Altocumulus Volutus", "Altocumulus que exibem padrões espirais ou giratórios.", "https://i.postimg.cc/pTvNQyW4/altocumulus-volutus.jpg"));
 
         }  else if ("Cumulonimbus".equalsIgnoreCase(category)) {
             images.add(new Image(1, "Cumulonimbus", "Nuvens densas e verticais, muitas vezes associadas a tempestades severas, trovões e chuvas intensas.", "https://i.postimg.cc/Bbwwzv3q/cumulonimbus.jpg"));
