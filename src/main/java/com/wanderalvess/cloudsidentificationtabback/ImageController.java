@@ -4,6 +4,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +15,34 @@ import java.util.List;
 public class ImageController {
      //spring data rest repository
     // mock
+    @GetMapping(value = "/images/weather", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
+    public ResponseEntity<List<Image>> getImagesWeather(@RequestParam("name")String name) {
+        List<Image> images = new ArrayList<>();
+        System.out.println(name);
+        if("clear-day".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "clear-day", "https://i.postimg.cc/MnxTWt4r/clear-day.png"));
+        } else if("clear-night".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "clear-night", "https://i.postimg.cc/w7DM8nWm/clear-night.png"));
+        } else if("cloud".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "cloud", "https://i.postimg.cc/FfCsVvK2/cloud.png"));
+        } else if("cloudly_day".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/k6kJLyKs/cloudly-day.png"));
+        } else if("cloudly_night".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/6276HP2T/cloudly-night.png"));
+        } else if("fog".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/K4MvBdhH/fog.png"));
+        } else if("rain".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/DSgzmL3f/snow.png"));
+        } else if("snow".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/30m8hDZT/storm.pn"));
+        } else if("storm".equalsIgnoreCase(name)) {
+
+        } else {
+
+        }
+        return ResponseEntity.ok(images);
+    }
+
     @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();

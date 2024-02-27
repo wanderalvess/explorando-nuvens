@@ -25,6 +25,12 @@ public class Image {
         this.imageUrl = imageUrl;
     }
 
+    public Image (Integer id, String name, String imageUrl){
+        this.id = id;
+        this.nameCloudType = name;
+        this.imageUrl = imageUrl;
+    };
+
     public Image() {
     }
 
