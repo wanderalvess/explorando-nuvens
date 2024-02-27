@@ -26,16 +26,17 @@ public class ImageController {
         } else if("cloud".equalsIgnoreCase(name)) {
             images.add(new Image(1, "cloud", "https://i.postimg.cc/FfCsVvK2/cloud.png"));
         } else if("cloudly_day".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/k6kJLyKs/cloudly-day.png"));
+            images.add(new Image(1, "cloudly_day", "https://i.postimg.cc/k6kJLyKs/cloudly-day.png"));
         } else if("cloudly_night".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/6276HP2T/cloudly-night.png"));
+            images.add(new Image(1, "cloudly_night", "https://i.postimg.cc/6276HP2T/cloudly-night.png"));
         } else if("fog".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/K4MvBdhH/fog.png"));
+            images.add(new Image(1, "fog", "https://i.postimg.cc/K4MvBdhH/fog.png"));
         } else if("rain".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/DSgzmL3f/snow.png"));
+            images.add(new Image(1, "rain", "https://i.postimg.cc/CKjBWntQ/rain.png"));
         } else if("snow".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Cirrus", "https://i.postimg.cc/30m8hDZT/storm.pn"));
+            images.add(new Image(1, "snow", "https://i.postimg.cc/d0MZHjWC/snow.png"));
         } else if("storm".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "storm", "https://i.postimg.cc/brFsQxDs/storm.png"));
 
         } else {
 
