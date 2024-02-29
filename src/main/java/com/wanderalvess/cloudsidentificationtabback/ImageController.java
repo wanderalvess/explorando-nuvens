@@ -19,10 +19,10 @@ public class ImageController {
     public ResponseEntity<List<Image>> getImagesWeather(@RequestParam("name")String name) {
         List<Image> images = new ArrayList<>();
         System.out.println(name);
-        if("clear-day".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "clear-day", "https://i.postimg.cc/MnxTWt4r/clear-day.png"));
-        } else if("clear-night".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "clear-night", "https://i.postimg.cc/w7DM8nWm/clear-night.png"));
+        if("clear_day".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "clear_day", "https://i.postimg.cc/MnxTWt4r/clear-day.png"));
+        } else if("clear_night".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "clear_night", "https://i.postimg.cc/02BwmsDc/clear-night.png"));
         } else if("cloud".equalsIgnoreCase(name)) {
             images.add(new Image(1, "cloud", "https://i.postimg.cc/FfCsVvK2/cloud.png"));
         } else if("cloudly_day".equalsIgnoreCase(name)) {
