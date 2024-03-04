@@ -44,6 +44,18 @@ public class ImageController {
         return ResponseEntity.ok(images);
     }
 
+    @GetMapping(value = "/images/guide", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
+    public ResponseEntity<List<Image>> getImagesGuide(@RequestParam("name")String name) {
+        List<Image> images = new ArrayList<>();
+        System.out.println(name);
+        if("guide".equalsIgnoreCase(name)) {
+            images.add(new Image(1, "Guia de Identificação de Nuvens", "https://i.postimg.cc/L8Gv06Fq/guia-identificacao-nuvens.jpg"));
+        } else {
+
+        }
+        return ResponseEntity.ok(images);
+    }
+
     @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();
