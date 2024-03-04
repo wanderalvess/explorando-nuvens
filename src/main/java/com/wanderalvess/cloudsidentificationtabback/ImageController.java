@@ -49,7 +49,7 @@ public class ImageController {
         List<Image> images = new ArrayList<>();
         System.out.println(name);
         if("guide".equalsIgnoreCase(name)) {
-            images.add(new Image(1, "Guia de Identificação de Nuvens", "https://i.postimg.cc/L8Gv06Fq/guia-identificacao-nuvens.jpg"));
+            images.add(new Image(1, "Guia de Identificação de Nuvens", "https://i.postimg.cc/1RDC3RW0/guia-identificacao-nuvens.jpg"));
         } else {
 
         }
