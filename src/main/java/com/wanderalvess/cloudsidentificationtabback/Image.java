@@ -1,35 +1,25 @@
 package com.wanderalvess.cloudsidentificationtabback;
 
-//import jakarta.persistence.Column;
-//import jakarta.persistence.Entity;
-//import jakarta.persistence.Id;
-//import jakarta.persistence.Table;
-
-//@Entity
-//@Table(name = "imagens")
 public class Image {
-    //@Id
-    //@Column(name = "id")
     private Integer id;
-    //@Column(name = "titulo")
     private String nameCloudType;
-    //@Column(name = "descricao")
+    private String titleCloudType;
     private String descriptionCloudType;
-    //@Column(name = "url")
     private String imageUrl;
 
-    public Image(Integer id, String nameCloudType, String descriptionCloudType, String imageUrl) {
+    public Image(Integer id, String nameCloudType, String titleCloudType, String descriptionCloudType, String imageUrl) {
         this.id = id;
         this.nameCloudType = nameCloudType;
+        this.titleCloudType = titleCloudType;
         this.descriptionCloudType = descriptionCloudType;
         this.imageUrl = imageUrl;
     }
 
-    public Image (Integer id, String name, String imageUrl){
+    public Image(Integer id, String name, String imageUrl) {
         this.id = id;
         this.nameCloudType = name;
         this.imageUrl = imageUrl;
-    };
+    }
 
     public Image() {
     }
@@ -64,5 +54,13 @@ public class Image {
 
     public void setDescriptionCloudType(String descriptionCloudType) {
         this.descriptionCloudType = descriptionCloudType;
+    }
+
+    public String getTitleCloudType() {
+        return titleCloudType;
+    }
+
+    public void setTitleCloudType(String titleCloudType) {
+        this.titleCloudType = titleCloudType;
     }
 }
