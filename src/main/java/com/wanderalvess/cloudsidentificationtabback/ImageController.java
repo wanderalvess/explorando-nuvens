@@ -303,7 +303,7 @@ public class ImageController {
                     "Altostratus (As)",
                     "Altostratus (As)",
                     "Folha ou camada de nuvens acinzentadas ou azuladas de aparência estriada, fibrosa ou uniforme, cobrindo total ou parcialmente o céu, e com partes finas o suficiente para revelar o Sol pelo menos vagamente, como através de vidro fosco. Altostratus não apresenta fenômenos de halo.",
-                    "https://i.postimg.cc/Mfqh2ftV/Altostratus.jpg"));
+                    "https://i.postimg.cc/ZntsL9Yt/Altostratus.jpg"));
             images.add(new Image(36,
                     "Altostratus translucidus (As tr)",
                     "Altostratus translucidus",
@@ -318,7 +318,7 @@ public class ImageController {
                     "Altostratus undulatus (As un)",
                     "Altostratus undulatus",
                     "Altostratus mostrando ondulações.",
-                    "https://i.postimg.cc/xjwN45td/Altostratus-undulatus.jpg"));
+                    "https://i.postimg.cc/xTj3VG4p/Altostratus-undulatus.jpg"));
             images.add(new Image(39,
                     "Altostratus opacus (As op)",
                     "Altostratus opacus",
