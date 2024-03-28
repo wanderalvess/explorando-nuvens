@@ -323,7 +323,7 @@ public class ImageController {
                     "Altostratus opacus (As op)",
                     "Altostratus opacus",
                     "Altostratus, cuja maior parte é suficientemente opaca para mascarar completamente o Sol ou a Lua.",
-                    "https://i.postimg.cc/N9h3DzHN/Altostratus-opacus.jpg"));
+                    "https://i.postimg.cc/Hs63r7Cv/Altostratus-opacus.jpg"));
             images.add(new Image(40,
                     "Altostratus radiatus (As ra)",
                     "Altostratus radiatus",
