@@ -291,12 +291,32 @@ public class ImageController {
                     "Cirrocumulus lacunosus (Cc la)",
                     "Cirrocumulus lacunosus",
                     "Cirrocumulus em mancha, folha ou camada, apresentando pequenos orifícios redondos distribuídos mais ou menos regularmente, muitos deles com bordas franjadas. Elementos de nuvem e espaços claros são frequentemente organizados como uma rede ou um favo de mel.",
-                    "https://i.postimg.cc/bG2XQhsD/Cirrocumulus-lacunosus.jpg"));
+                    "https://i.postimg.cc/HJffkNwr/Cirrocumulus-lacunosus.jpg"));
             images.add(new Image(34,
                     "Cirrocumulus undulatus (Cc un)",
                     "Cirrocumulus undulatus",
                     "Cirrocumulus mostrando um ou dois sistemas de ondulações.",
-                    "https://i.postimg.cc/D46R2fYD/Cirrocumulus-undulatus.jpg"));
+                    "https://i.postimg.cc/0KC3Z2LS/Cirrocumulus-undulatus.jpg"));
+            images.add(new Image(35,
+                    "Cirrocumulus stratiformis (Cc str)",
+                    "Cirrocumulus stratiformis",
+                    "Cirrocumulo em forma de folha ou camada relativamente extensa, às vezes apresentando rupturas..",
+                    "https://i.postimg.cc/DmdyRQhr/Cirrocumulus-stratiformis.jpgg"));
+            images.add(new Image(35,
+                    "Cirrocumulus lenticularis (Cc len)",
+                    "Cirrocumulus lenticularis",
+                    "Manchas de Cirrocumulus em formato de lente ou amêndoa; muitas vezes muito alongado e geralmente com contornos bem definidos. As manchas são mais ou menos isoladas, em sua maioria lisas e totalmente brancas. A irisação é às vezes observada nessas nuvens.",
+                    "https://i.postimg.cc/grP2MSCc/Cirrocumulus-lenticularis.jpg"));
+            images.add(new Image(35,
+                    "Cirrocumulus castellanus (Cc cas))",
+                    "Cirrocumulus castellanus",
+                    "Cirrocúmulos onde alguns elementos se desenvolvem verticalmente em forma de pequenos torreões, elevando-se a partir de uma base horizontal comum. A largura aparente das torres é sempre inferior a 1°, quando observadas em um ângulo superior a 30° acima do horizonte. Castellanus se desenvolve devido à instabilidade nesse nível..",
+                    "https://i.postimg.cc/ctW2Q85Z/Cirrocumulus-castellanus.jpg"));
+            images.add(new Image(35,
+                    "Cirrocumulus floccus (Cc flo)",
+                    "Cirrocumulus floccus ",
+                    "Tufos cumuliformes muito pequenos, cujas partes inferiores são mais ou menos irregulares. A largura aparente de cada tufo é sempre inferior a 1°, quando observado em um ângulo superior a 30° acima do horizonte. Floccus se desenvolve devido à instabilidade nesse nível. Cirrocumulus floccus às vezes evolui de Cirrocumulus castellanus, tendo a base deste último se dissipado.\n",
+                    "https://i.postimg.cc/Vrn2rFgD/Cirrocumulus-floccus.jpg"));
 
         } else if (CloudCategoryEnum.ALTOSTRATUS.getCategoryName().equalsIgnoreCase(category)) {
             images.add(new Image(35,
