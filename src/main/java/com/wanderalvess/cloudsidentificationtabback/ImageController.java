@@ -308,17 +308,17 @@ public class ImageController {
                     "Altostratus translucidus (As tr)",
                     "Altostratus translucidus",
                     "Altostratus, cuja maior parte é suficientemente translúcida para revelar a posição do Sol ou da Lua.",
-                    "https://i.postimg.cc/1npLjr0y/Altostratus-translucidus.jpg"));
+                    "https://i.postimg.cc/1tTs4WfV/Altostratus-translucidus.jpg"));
             images.add(new Image(37,
                     "Altostratus duplicatus (As du)",
                     "Altostratus duplicatus",
                     "Altostratus composto por duas ou mais camadas sobrepostas, em níveis ligeiramente diferentes, às vezes parcialmente fundidas. Esta variedade raramente é vista em Altostratus.",
-                    "https://i.postimg.cc/C5sNK2Kw/Cirrostratus-undulatus.jpg"));
+                    "https://i.postimg.cc/vmhdqfVH/Altostratus-duplicatus.jpg"));
             images.add(new Image(38,
                     "Altostratus undulatus (As un)",
                     "Altostratus undulatus",
                     "Altostratus mostrando ondulações.",
-                    "https://i.postimg.cc/RqT037rr/Altostratus-undulatus.jpg"));
+                    "https://i.postimg.cc/xjwN45td/Altostratus-undulatus.jpg"));
             images.add(new Image(39,
                     "Altostratus opacus (As op)",
                     "Altostratus opacus",
@@ -328,42 +328,42 @@ public class ImageController {
                     "Altostratus radiatus (As ra)",
                     "Altostratus radiatus",
                     "Altostratus mostrando largas faixas paralelas que parecem convergir para um ponto ou para dois pontos opostos do horizonte. Esta variedade raramente é vista em Altostratus.",
-                    "]https://i.postimg.cc/PC7spxrn/Altostratus-radiatus.jpg"));
+                    "https://i.postimg.cc/1zm9dnkX/Altostratus-radiatus.jpg"));
 
         } else if (CloudCategoryEnum.CUMULUS.getCategoryName().equalsIgnoreCase(category)) {
             images.add(new Image(41,
                     "Cumulus (Cu)",
                     "Cumulus",
-                    "Nuvens brancas e fofas com bases planas e topos arredondados, encontradas em altitudes médias.",
+                    "Nuvens destacadas, geralmente densas e de contornos nítidos, desenvolvendo-se verticalmente em forma de montes, cúpulas ou torres ascendentes, cuja parte superior saliente muitas vezes se assemelha a uma couve-flor. As partes iluminadas pelo sol dessas nuvens são em sua maioria de um branco brilhante; sua base é relativamente escura e quase horizontal. Às vezes, Cumulus é irregular.",
                     "https://i.postimg.cc/3R1qgBb0/cumulus.jpg"));
             images.add(new Image(42,
                     "Cumulus Congestus (Cu con)",
                     "Cumulus Congestus",
-                    "Cumulus que se desenvolvem verticalmente em grandes torres, indicando instabilidade atmosférica.",
+                    "Cúmulos fortemente brotados, com contornos geralmente nítidos e muitas vezes com grande extensão vertical. A parte superior saliente do Cumulus congestus frequentemente se assemelha a uma couve-flor. Cumulus congestus pode produzir precipitação na forma de chuva, neve ou pellets de neve. Nos trópicos, muitas vezes liberam chuvas abundantes na forma de aguaceiros.",
                     "https://i.postimg.cc/NjXPNYzc/cumulus-congestus.jpg"));
             images.add(new Image(43,
                     "Cumulus Fractus (Cu fra)",
                     "Cumulus Fractus",
-                    "Cumulus quebrados ou fragmentados, muitas vezes associados a tempo instável.",
+                    "Cúmulos pequenos com bordas muito irregulares e com contornos em constante mudança, muitas vezes rápidas.",
                     "https://i.postimg.cc/TYF4qhQ0/cumulus-fractus.jpg"));
             images.add(new Image(44,
                     "Cumulus Humilis (Cu hum)",
                     "Cumulus Humilis",
-                    "Cumulus de pequena estatura, indicativos de tempo calmo e estável.",
+                    "Cúmulos caracterizados por apenas uma pequena extensão vertical e geralmente parecendo achatados. Nuvens Cumulus humilis nunca produzem precipitação.",
                     "https://i.postimg.cc/HLCvRKq7/cumulus-humilis.jpg"));
             images.add(new Image(45,
                     "Cumulus Mediocris (Cu med)",
                     "Cumulus Mediocris",
-                    "Cumulus de altura média, entre o humilis e o congestus.",
+                    "Cúmulus de extensão vertical moderada, com pequenas protuberâncias e brotações no topo. Cumulus mediocris geralmente não produz precipitação.",
                     "https://i.postimg.cc/5047NzN4/cumulus-mediocris.jpg"));
             images.add(new Image(46,
                     "Cumulus Radiatus (Cu ra)",
                     "Cumulus Radiatus",
-                    "Cumulus com bases paralelas, criando uma aparência de \"rugas\" no céu.",
+                    "Cúmulus dispostos em linhas quase paralelas à direção do vento (ruas nubladas) e geralmente da espécie mediocris. Devido à perspectiva, essas linhas parecem convergir para um ponto ou para pontos opostos do horizonte.",
                     "https://i.postimg.cc/4ynWpT9j/cumulus-radiatus.jpg"));
 
         } else {
-            throw new CustomException("Unknown category: " + category);
+            throw new CustomException("Categoria desconhecida: " + category);
         }
 
         return ResponseEntity.ok(images);
