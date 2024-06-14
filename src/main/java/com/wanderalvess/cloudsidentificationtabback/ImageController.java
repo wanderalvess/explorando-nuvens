@@ -15,8 +15,6 @@ import java.util.List;
 @RequestMapping("/api/image")
 @CrossOrigin("*")
 public class ImageController {
-    //spring data rest repository
-    // mock
     @GetMapping(value = "/images/weather", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImagesWeather(@RequestParam("name") String category) {
         List<Image> images = new ArrayList<>();
