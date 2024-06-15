@@ -1,4 +1,4 @@
-package com.wanderalvess.cloudsidentificationtabback.exception;
+package com.wanderalvess.explorandoclima.exception;
 
 public class CustomException extends RuntimeException {
     public CustomException(String message) {

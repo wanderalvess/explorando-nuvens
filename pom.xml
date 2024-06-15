@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wanderalvess</groupId>
-    <artifactId>clouds-identification-tab-back</artifactId>
+    <artifactId>explorando-clima</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>clouds-identification-tab-back</name>
     <description>clouds-identification-tab-back</description>

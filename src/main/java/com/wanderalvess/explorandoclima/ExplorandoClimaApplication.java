@@ -1,13 +1,13 @@
-package com.wanderalvess.cloudsidentificationtabback;
+package com.wanderalvess.explorandoclima;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CloudsIdentificationTabBackApplication {
+public class ExplorandoClimaApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudsIdentificationTabBackApplication.class, args);
+        SpringApplication.run(ExplorandoClimaApplication.class, args);
     }
 
 }

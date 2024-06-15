@@ -1,4 +1,4 @@
-package com.wanderalvess.cloudsidentificationtabback.enums;
+package com.wanderalvess.explorandoclima.enums;
 
 public enum CloudCategoryEnum {
     CIRRUS("Cirrus"),

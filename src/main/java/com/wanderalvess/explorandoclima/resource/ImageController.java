@@ -1,8 +1,9 @@
-package com.wanderalvess.cloudsidentificationtabback;
+package com.wanderalvess.explorandoclima.resource;
 
-import com.wanderalvess.cloudsidentificationtabback.enums.CloudCategoryEnum;
-import com.wanderalvess.cloudsidentificationtabback.enums.WeatherCategoryEnum;
-import com.wanderalvess.cloudsidentificationtabback.exception.CustomException;
+import com.wanderalvess.explorandoclima.model.Image;
+import com.wanderalvess.explorandoclima.enums.CloudCategoryEnum;
+import com.wanderalvess.explorandoclima.enums.WeatherCategoryEnum;
+import com.wanderalvess.explorandoclima.exception.CustomException;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,7 +13,8 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/api/image")
+//@RequestMapping("/api/image")
+@RequestMapping("/api")
 @CrossOrigin("*")
 public class ImageController {
     @GetMapping(value = "/images/weather", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
@@ -82,7 +84,8 @@ public class ImageController {
         return ResponseEntity.ok(images);
     }
 
-    @GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
+    //@GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
+    @GetMapping(value = "/images/clouds", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();
         System.out.println(category);

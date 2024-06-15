@@ -1,4 +1,4 @@
-package com.wanderalvess.cloudsidentificationtabback;
+package com.wanderalvess.explorandoclima.model;
 
 public class Image {
     private Integer id;

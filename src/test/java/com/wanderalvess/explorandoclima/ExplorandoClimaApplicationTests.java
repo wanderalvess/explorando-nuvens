@@ -1,10 +1,10 @@
-package com.wanderalvess.cloudsidentificationtabback;
+package com.wanderalvess.explorandoclima;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CloudsIdentificationTabBackApplicationTests {
+class ExplorandoClimaApplicationTests {
 
     @Test
     void contextLoads() {

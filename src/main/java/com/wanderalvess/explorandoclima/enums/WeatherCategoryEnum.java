@@ -1,4 +1,4 @@
-package com.wanderalvess.cloudsidentificationtabback.enums;
+package com.wanderalvess.explorandoclima.enums;
 
 public enum WeatherCategoryEnum {
     CLEAR_DAY("clear_day"),
