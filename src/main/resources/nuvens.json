@@ -1,0 +1,298 @@
+{
+  "cirrus": [
+    {
+      "id": 1,
+      "name": "Cirrus (Ci)",
+      "shortName": "Cirrus",
+      "description": "Nuvens finas e delicadas, muitas vezes em forma de filamentos ou penas, que se formam em altitudes elevadas. Elas são compostas principalmente de cristais de gelo.",
+      "imageUrl": "https://i.postimg.cc/5tLdF8V8/cirrus1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Cirrus Castellanus (Ci cas)",
+      "shortName": "Cirrus Castellanus",
+      "description": "Cirrus bastante denso na forma de pequenas torres ou massas arredondadas e fibrosas que se erguem de uma base comum, e às vezes com aparência de ameias (amias de castelo). A largura aparente das protuberâncias em forma de torre pode ser menor ou maior que 1° quando observada em um ângulo superior a 30° acima do horizonte; distinto de Cirrocumulus castellanus onde a largura é inferior a 1°",
+      "imageUrl": "https://i.postimg.cc/W4Rxjtkz/cirrus-castellanus.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cirrus Fibratus (Ci fib)",
+      "shortName": "Cirrus Fibratus",
+      "description": "Filamentos brancos quase retos ou mais ou menos curvados irregularmente, sempre finos e não terminando em ganchos ou tufos. Os filamentos são, em sua maioria, distintos uns dos outros.",
+      "imageUrl": "https://i.postimg.cc/4xHjrpnj/cirrus-fibratus.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cirrus Floccus (Ci flo)",
+      "shortName": "Cirrus Floccus",
+      "description": "Cirrus em forma de tufos pequenos, arredondados, mais ou menos isolados, muitas vezes com trilhas. A largura aparente dos tufos pode ser menor ou maior que 1° quando observados em um ângulo superior a 30° acima do horizonte; distinto de Cirrocumulus castellanus onde a largura é inferior a 1°.",
+      "imageUrl": "https://i.postimg.cc/Zqr2qZ8c/cirrus-floccus.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cirrus Spissatus (Ci spi)",
+      "shortName": "Cirrus Spissatus",
+      "description": "Cirrus em manchas, suficientemente densos para parecerem acinzentados quando vistos em direção ao sol; também pode velar o Sol, obscurecer o seu contorno ou mesmo ocultá-lo. Cirrus spissatus geralmente se origina da parte superior de um Cumulonimbus.",
+      "imageUrl": "https://i.postimg.cc/1tsTnTMZ/cirrus-spissatus.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Cirrus Uncinus (Ci unc)",
+      "shortName": "Cirrus Uncinus",
+      "description": "Cirrus sem partes cinzentas, muitas vezes em forma de vírgula, terminando no topo em gancho, ou em tufo, cuja parte superior não tem forma de protuberância.",
+      "imageUrl": "https://i.postimg.cc/kXBHbWND/cirrus-uncinus.jpg"
+    }
+  ],
+  "stratus": [
+    {
+      "id": 7,
+      "name": "Stratus (St)",
+      "shortName": "Stratus",
+      "description": "Camada de nuvens geralmente cinzenta com base bastante uniforme, podendo originar garoa, neve ou grãos de neve. Quando o Sol é visível através da nuvem, o seu contorno é claramente discernível. Stratus não produz fenômenos de halo, exceto, possivelmente, em temperaturas muito baixas. Às vezes, Stratus aparece na forma de manchas irregulares.",
+      "imageUrl": "https://i.postimg.cc/9MLx4frG/stratus-fractus.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Stratus Fractus (St fra)",
+      "shortName": "Stratus Fractus",
+      "description": "Stratus ocorrendo na forma de fragmentos irregulares e irregulares, cujos contornos mudam continuamente e muitas vezes rapidamente.",
+      "imageUrl": "https://i.postimg.cc/9MLx4frG/stratus-fractus.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Stratus Nebulosus (St neb)",
+      "shortName": "Stratus Nebulosus",
+      "description": "Camada nebulosa, cinzenta e bastante uniforme de Stratus. Esta é a espécie mais comum.",
+      "imageUrl": "https://i.postimg.cc/43b2gPG2/stratus-nebulosus.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Stratus Opacus (St op)",
+      "shortName": "Stratus Opacus",
+      "description": "Remendo, folha ou camada de Stratus, cuja maior parte é tão opaca que mascara completamente o Sol ou a Lua. Esta é a variedade mais comum.",
+      "imageUrl": "https://i.postimg.cc/y6rQskqK/stratus-opacus.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Stratus Translucidus (St tr)",
+      "shortName": "Stratus Translucidus",
+      "description": "Remendo, folha ou camada de Stratus, cuja maior parte é suficientemente translúcida para revelar o contorno do Sol ou da Lua.",
+      "imageUrl": "https://i.postimg.cc/BbyMgw5b/stratus-translucidus.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Stratus Undulatus (St un)",
+      "shortName": "Stratus Undulatus",
+      "description": "Stratus que exibem padrões ondulados ou estriados. Esta variedade não ocorre com muita frequência.",
+      "imageUrl": "https://i.postimg.cc/sDQnXsyh/stratus-undulatus.jpg"
+    }
+  ],
+  "stratocumulus": [
+    {
+      "id": 13,
+      "name": "Stratocumulus (Sc)",
+      "shortName": "Stratocumulus",
+      "description": "Cinzento ou esbranquiçado, ou simultaneamente cinzento e esbranquiçado, mancha, lençol ou camada de nuvem quase sempre com partes escuras, composta por tesselações, massas arredondadas, rolos, etc., não fibrosas (excepto virga) e que podem ou não podem ser mesclados; a maioria dos pequenos elementos dispostos regularmente tem uma largura aparente superior a 5°.",
+      "imageUrl": "https://i.postimg.cc/KcHzk3CY/stratocumulus.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Stratocumulus Stratiformis (Sc str)",
+      "shortName": "Stratocumulus Stratiformis",
+      "description": "Stratocumulus que cobrem o céu em camadas uniformes e contínuas. Os elementos são mais ou menos achatados. Esta espécie é a mais comum.",
+      "imageUrl": "https://i.postimg.cc/wTRBhTdQ/stratocumulus-stratiformis.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Stratocumulus Castellanus (Sc cas)",
+      "shortName": "Stratocumulus Castellanus",
+      "description": "Stratocumulus com protuberâncias verticais semelhantes a torres ou castelos.",
+      "imageUrl": "https://i.postimg.cc/FFwvXMYP/stratocumulus-castellanus.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Stratocumulus Lenticularis (Sc len)",
+      "shortName": "Stratocumulus Lenticularis",
+      "description": "Uma mancha de Stratocumulus, em forma de lente ou amêndoa, muitas vezes muito alongada e geralmente com contornos bem definidos. A mancha é composta por pequenos elementos (uma largura aparente superior a 5° quando observada em um ângulo superior a 30° acima do horizonte), agrupados estreitamente, ou consiste em uma unidade mais ou menos lisa e geralmente escura. A irização é possível. Esta espécie de Stratocumulus é bastante rara.",
+      "imageUrl": "https://i.postimg.cc/CMR0thxB/stratocumulus-lenticularis.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Stratocumulus Volutus (Sc vol)",
+      "shortName": "Stratocumulus Volutus",
+      "description": "Uma massa de nuvem longa, horizontal, destacada e em forma de tubo, muitas vezes parecendo rolar lentamente em torno de um eixo horizontal. Eles geralmente ocorrem isoladamente e são relativamente raros.",
+      "imageUrl": "https://i.postimg.cc/DyVD8Kc5/stratocumulus-volutus.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Stratocumulus Undulatus (Sc un)",
+      "shortName": "Stratocumulus Undulatus",
+      "description": "Stratocumulus com um padrão ondulado, onde as ondas ou ondulações são visíveis. Esta variedade não ocorre com muita frequência.",
+      "imageUrl": "https://i.postimg.cc/zD6w2LDk/stratocumulus-undulatus.jpg"
+    }
+  ],
+  "altocumulus": [
+    {
+      "id": 19,
+      "name": "Altocumulus (Ac)",
+      "shortName": "Altocumulus",
+      "description": "Nuvens médias compostas de massas brancas ou cinzentas, muitas vezes em forma de flocos ou rolos. Elas geralmente cobrem o céu em formações padronizadas.",
+      "imageUrl": "https://i.postimg.cc/Z5QJ7SKk/altocumulus.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Altocumulus Castellanus (Ac cas)",
+      "shortName": "Altocumulus Castellanus",
+      "description": "Altocumulus com torres ou protuberâncias verticais que se assemelham a castelos.",
+      "imageUrl": "https://i.postimg.cc/KvFRMLDh/altocumulus-castellanus.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Altocumulus Floccus (Ac flo)",
+      "shortName": "Altocumulus Floccus",
+      "description": "Altocumulus em forma de pequenos flocos com base irregular e com aspecto mais ou menos desordenado.",
+      "imageUrl": "https://i.postimg.cc/pT7yHkRj/altocumulus-floccus.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Altocumulus Lenticularis (Ac len)",
+      "shortName": "Altocumulus Lenticularis",
+      "description": "Nuvens em forma de lente ou amêndoa, frequentemente associadas a montanhas ou áreas de forte convecção atmosférica.",
+      "imageUrl": "https://i.postimg.cc/VsJymM60/altocumulus-lenticularis.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Altocumulus Stratiformis (Ac str)",
+      "shortName": "Altocumulus Stratiformis",
+      "description": "Altocumulus que se apresentam em camadas mais uniformes, cobrindo extensas áreas do céu.",
+      "imageUrl": "https://i.postimg.cc/9F0ZMRQ9/altocumulus-stratiformis.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Altocumulus Undulatus (Ac un)",
+      "shortName": "Altocumulus Undulatus",
+      "description": "Altocumulus com um padrão ondulado ou de listras, frequentemente devido à instabilidade atmosférica.",
+      "imageUrl": "https://i.postimg.cc/pLy7xJQv/altocumulus-undulatus.jpg"
+    }
+  ],
+  "altostratus": [
+    {
+      "id": 25,
+      "name": "Altostratus (As)",
+      "shortName": "Altostratus",
+      "description": "Camada uniforme de nuvens médias, cinzentas ou azuladas, cobrindo grande parte ou todo o céu. Pode ser suficientemente espessa para ocultar o Sol.",
+      "imageUrl": "https://i.postimg.cc/YqrvTqzD/altostratus.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Altostratus Opacus (As op)",
+      "shortName": "Altostratus Opacus",
+      "description": "Altostratus suficientemente espesso para ocultar completamente o Sol ou a Lua.",
+      "imageUrl": "https://i.postimg.cc/fTxWj9c9/altostratus-opacus.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Altostratus Translucidus (As tr)",
+      "shortName": "Altostratus Translucidus",
+      "description": "Altostratus fino o suficiente para permitir que o contorno do Sol ou da Lua seja visível.",
+      "imageUrl": "https://i.postimg.cc/N0SLQ9Wk/altostratus-translucidus.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Altostratus Radiatus (As ra)",
+      "shortName": "Altostratus Radiatus",
+      "description": "Altostratus que se apresenta em faixas paralelas, que parecem convergir em um ponto no horizonte.",
+      "imageUrl": "https://i.postimg.cc/wTGJbZgT/altostratus-radiatus.jpg"
+    }
+  ],
+  "nimbostratus": [
+    {
+      "id": 29,
+      "name": "Nimbostratus (Ns)",
+      "shortName": "Nimbostratus",
+      "description": "Camada espessa e uniforme de nuvens escuras, cobrindo grande parte do céu e produzindo precipitação contínua, geralmente na forma de chuva ou neve.",
+      "imageUrl": "https://i.postimg.cc/L67wVtC0/nimbostratus.jpg"
+    }
+  ],
+  "cumulus": [
+    {
+      "id": 30,
+      "name": "Cumulus (Cu)",
+      "shortName": "Cumulus",
+      "description": "Nuvens brancas e fofas com bases planas e topos arredondados. Frequentemente associadas a bom tempo, mas podem se desenvolver em nuvens de tempestade.",
+      "imageUrl": "https://i.postimg.cc/1XqHRLv8/cumulus.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Cumulus Congestus (Cu con)",
+      "shortName": "Cumulus Congestus",
+      "description": "Cumulus que se desenvolvem verticalmente, com topos altos e em forma de torres. Pode indicar o início de tempestades.",
+      "imageUrl": "https://i.postimg.cc/7hj0mnXG/cumulus-congestus.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Cumulus Humilis (Cu hum)",
+      "shortName": "Cumulus Humilis",
+      "description": "Pequenas nuvens Cumulus com pouco desenvolvimento vertical, associadas a bom tempo.",
+      "imageUrl": "https://i.postimg.cc/gkKwPfDk/cumulus-humilis.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Cumulus Mediocris (Cu med)",
+      "shortName": "Cumulus Mediocris",
+      "description": "Cumulus com desenvolvimento vertical moderado, intermediário entre Cumulus Humilis e Cumulus Congestus.",
+      "imageUrl": "https://i.postimg.cc/WzMwq9wY/cumulus-mediocris.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Cumulus Fractus (Cu fra)",
+      "shortName": "Cumulus Fractus",
+      "description": "Cumulus que aparecem fragmentados ou rasgados, com contornos irregulares.",
+      "imageUrl": "https://i.postimg.cc/NjqJ7WZB/cumulus-fractus.jpg"
+    }
+  ],
+  "cumulonimbus": [
+    {
+      "id": 35,
+      "name": "Cumulonimbus (Cb)",
+      "shortName": "Cumulonimbus",
+      "description": "Grandes nuvens de tempestade com desenvolvimento vertical significativo, frequentemente com topos em forma de bigorna. Associadas a trovões, relâmpagos, chuvas fortes e granizo.",
+      "imageUrl": "https://i.postimg.cc/LX1Zcvdk/cumulonimbus.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Cumulonimbus Calvus (Cb cal)",
+      "shortName": "Cumulonimbus Calvus",
+      "description": "Cumulonimbus com topo arredondado e sem forma de bigorna, indicando estágio inicial de desenvolvimento.",
+      "imageUrl": "https://i.postimg.cc/8C2ZrTtX/cumulonimbus-calvus.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Cumulonimbus Capillatus (Cb cap)",
+      "shortName": "Cumulonimbus Capillatus",
+      "description": "Cumulonimbus com topo fibroso ou estriado, frequentemente em forma de bigorna, indicando estágio maduro ou dissipativo.",
+      "imageUrl": "https://i.postimg.cc/Y9Jkz4Dv/cumulonimbus-capillatus.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Cumulonimbus Incus (Cb inc)",
+      "shortName": "Cumulonimbus Incus",
+      "description": "Cumulonimbus com topo em forma de bigorna, indicando estágio maduro e ativo de desenvolvimento.",
+      "imageUrl": "https://i.postimg.cc/pV9rV0Zm/cumulonimbus-incus.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Cumulonimbus Mamma (Cb mam)",
+      "shortName": "Cumulonimbus Mamma",
+      "description": "Cumulonimbus com formações de nuvens em forma de mama na parte inferior, associadas a tempestades severas.",
+      "imageUrl": "https://i.postimg.cc/nrDdYZFv/cumulonimbus-mamma.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Cumulonimbus Praecipitatio (Cb pra)",
+      "shortName": "Cumulonimbus Praecipitatio",
+      "description": "Cumulonimbus que produzem precipitação significativa, como chuvas intensas ou granizo.",
+      "imageUrl": "https://i.postimg.cc/1t9SkSBQ/cumulonimbus-praecipitatio.jpg"
+    }
+  ]
+}

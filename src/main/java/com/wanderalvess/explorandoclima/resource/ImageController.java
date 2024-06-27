@@ -13,7 +13,6 @@ import java.util.List;
 
 
 @RestController
-//@RequestMapping("/api/image")
 @RequestMapping("/api")
 @CrossOrigin("*")
 public class ImageController {
@@ -84,7 +83,6 @@ public class ImageController {
         return ResponseEntity.ok(images);
     }
 
-    //@GetMapping(value = "/images", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     @GetMapping(value = "/images/clouds", produces = MediaType.APPLICATION_JSON_VALUE + ";charset=UTF-8")
     public ResponseEntity<List<Image>> getImages(@RequestParam("category") String category) {
         List<Image> images = new ArrayList<>();
